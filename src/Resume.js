@@ -1,5 +1,5 @@
 import resumeImg from './Images/resume.jpg';
-import resumedoc from './Images/Prasanth-resume.docx';
+// import resumedoc from './Images/Prasanth-resume.docx';
 
 export default function Resume() {
 
@@ -8,7 +8,7 @@ export default function Resume() {
         resumeTitle: 'Resume',
         resumetext: 'You Can view My Resume',
         resumedownload: 'Download',
-        resumelink: resumedoc,
+        resumelink:"https://flowcv.com/resume/5wekoapqf7"
     }
 
     return <section className='flex flex-col md:flex-row px-5 py-32 bg-secondary' id='resume'>
